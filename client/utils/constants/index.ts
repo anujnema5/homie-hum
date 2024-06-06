@@ -14,7 +14,7 @@ export const userProfileMenuLinks = [
 ]
 
 export const userProfileOptions = [
-    {title: "Bookings & Orders", href: '/view-profile', icon: BadgeCheck},
+    {title: "Bookings & Orders", href: '/orders', icon: BadgeCheck},
     {title: "Address Book", href: '/address', icon: NotebookText   },
     {title: "Subscription", href: '/subscription', icon: WalletCards},
     {title: "About", href: '/view-profile', icon: BadgeInfo},
@@ -23,5 +23,4 @@ export const userProfileOptions = [
     {title: "FAQs", href: '/view-profile', icon: UserIcon},
     {title: "Contact Us", href: '/view-profile', icon: Headset},
     {title: "Logout", href: '/view-profile', icon: Power},
-
 ]

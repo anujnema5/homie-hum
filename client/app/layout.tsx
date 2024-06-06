@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import StateProvider from "./providers/redux-provider";
 import AuthProvider from "./providers/auth-provider";
+import { Toaster } from "sonner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <StateProvider>
         <AuthProvider>
+          <Toaster richColors />
           <body className={`${inter.className} scrollbar-thumb-rounded-md scrollbar scrollbar-thumb-primary scrollbar-w-3 `}>
             {children}
           </body>

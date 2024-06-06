@@ -49,6 +49,7 @@ model User {
   lastName      String?
   username      String?       @unique
   email         String?       @unique
+  dateOfBirth   DateTime?     
   emailVerified Boolean?      @default(false)
   password      String?
   googleId      String?

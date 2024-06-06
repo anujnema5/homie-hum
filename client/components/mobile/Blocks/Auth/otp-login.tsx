@@ -52,7 +52,6 @@ export function OTPLogin() {
 
     return (
         <>
-            <Toaster richColors />
             <div className="w-full flex flex-col gap-10">
                 <Form {...form}>
                     <form onSubmit={form.handleSubmit(sendOTP)} className="space-y-4 w-full">

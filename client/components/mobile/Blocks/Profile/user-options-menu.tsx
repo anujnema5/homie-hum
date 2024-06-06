@@ -20,7 +20,7 @@ const UserOptionsMenu = () => {
                 <CardContent className='w-full px-0 '>
                     <div className="flex flex-col justify-between items-center gap-4 w-full">
                         {userProfileOptions?.map((_, i) => (
-                            <UserDirectoryCard title={_.title} Icon={_.icon}/>
+                            <UserDirectoryCard href={_.href} title={_.title}  Icon={_.icon}/>
                         ))}
                     </div>
                 </CardContent>

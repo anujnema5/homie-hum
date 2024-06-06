@@ -20,4 +20,4 @@ router.use('/review', reviewRoutes)
 router.use('/property', propertyRoutes)
 router.use('/subscribe', subscribeRoutes)
 
-export default router.use('/user', router);
+export default router;
