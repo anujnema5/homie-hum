@@ -1,11 +1,11 @@
 import HeadingWrapper from '@/components/mobile/Layout/Providers/heading-wrapper'
 import React from 'react'
-import Orders from './orders'
+import Bookings from './bookings'
 
 const page = () => {
   return (
-    <HeadingWrapper back heading="Booking & Orders">
-      <Orders/>
+    <HeadingWrapper back heading="Booking & Orders" className='h-screen'>
+      <Bookings />
     </HeadingWrapper>
   )
 }

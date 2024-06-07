@@ -5,7 +5,7 @@ import React from 'react'
 
 const Profile = () => {
   return (
-    <div className='w-full space-y-5'>
+    <div className='w-full  space-y-5'>
         <UserSnippet/>
         <UserProfileMenu/>
         <UserOptionsMenu/>

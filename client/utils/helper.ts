@@ -1,3 +1,5 @@
+import '@/utils/custom-prototypes';
+
 export const getEntityFromLocalStorage = (entity: string) => {
     let user = null;
 
@@ -14,4 +16,9 @@ export const getEntityFromLocalStorage = (entity: string) => {
 
 
     return user
+}
+
+export const getNameFromPathName = (pathname: string)=> {
+    const str = pathname.slice(1)
+    return str.firstLetterCapital()
 }

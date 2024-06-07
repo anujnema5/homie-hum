@@ -20,9 +20,7 @@ export const otpSchema = z.object({
 export const editprofileSchema = z.object({
     firstName: z.string().optional(),
     lastName: z.string().optional(),
-    username: z.string().min(2, {
-        message: "Username must be at least 2 characters.",
-    }).optional(),
+    username: z.string().optional(),
     phoneNumber: z.string().optional(),
     dateOfBirth: z.date().optional()
 })
